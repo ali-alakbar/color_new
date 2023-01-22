@@ -1,0 +1,116 @@
+*,
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, right top, left top, from(#010157), to(#6b008b));
+  background: linear-gradient(to left, #010157, #6b008b);
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Start Screen Responsive */
+/* Small  */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium  */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Big  */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.forHeaders .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+  background: rgba(255, 255, 255, 0.35);
+  text-align: center;
+  width: 70vw;
+}
+
+.forHeaders .container .content h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+/* Start Screen Responsive */
+/* Small  */
+@media (max-width: 768px) {
+  .forHeaders .container .content h1 {
+    font-size: 2rem;
+  }
+  .forHeaders .container .content h2 {
+    font-size: 15px;
+  }
+}
+
+/* Medium  */
+/* Big  */
+.forButton .container {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: 45vw;
+  background: rgba(255, 255, 255, 0.35);
+  margin: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Start Screen Responsive */
+/* Small  */
+@media (max-width: 768px) {
+  .forButton .container {
+    width: 70vw;
+  }
+}
+
+/* Medium  */
+/* Big  */
+/*# sourceMappingURL=style.css.map */

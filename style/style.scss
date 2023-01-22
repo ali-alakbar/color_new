@@ -1,0 +1,132 @@
+*,
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, rgb(1, 1, 87), rgb(107, 0, 139));
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Start Screen Responsive */
+
+/* Small  */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium  */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Big  */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+// ======== Start Header ========
+
+.forHeaders {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+    background: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    width: 70vw;
+    .content {
+      h1 {
+        font-size: 3rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+
+/* Start Screen Responsive */
+
+/* Small  */
+@media (max-width: 768px) {
+
+
+    .forHeaders{
+        .container{
+            .content{
+                h1{
+                    font-size: 2rem;
+                }
+                h2{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+
+
+}
+/* Medium  */
+@media (max-width: 992px) {
+}
+/* Big  */
+@media (max-width: 1200px) {
+}
+
+
+// ======== End Header ========
+
+.forButton {
+
+  .container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 45vw;
+    background: rgba(255, 255, 255, 0.35);
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+
+/* Start Screen Responsive */
+
+/* Small  */
+@media (max-width: 768px) {
+
+    .forButton{
+        .container{
+            width: 70vw;
+        }
+    }
+
+
+}
+/* Medium  */
+@media (max-width: 992px) {
+}
+/* Big  */
+@media (max-width: 1200px) {
+}
